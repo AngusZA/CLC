@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "CLC\\": "src"
+        }
+    },
+    "require": {
+        "s1syphos/php-simple-captcha": "^2.3"
+    }
+}
