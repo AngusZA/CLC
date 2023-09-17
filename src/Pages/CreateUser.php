@@ -25,7 +25,7 @@
             <div class="inputs text-center my-2"><input type="password" name="password" placeholder="Password*" required pattern="^(?=.*[A-Z])(?=.*[\W_]).{8,}$"><div>
             <div class="inputs text-center my-2"><input type="password" name="password2" placeholder="Confirm Password*" required pattern="^(?=.*[A-Z])(?=.*[\W_]).{8,}$"><div>
             <div class="text-center my-2"><img src="<?php echo $captchaBuilder->inline();?>" alt="" srcset=""></div>
-            <div class="inputs text-center my-2"><input type="text" name="captcha" placeholder="Enter Matching Text" required></div>
+            <div class="inputs text-center my-2"><input type="text" name="captcha" placeholder="Enter Captcha Text*" required></div>
                 <p class="text-danger font-weight-bold d-none text-center py-2" id="error"></p>
                 <p class="text-success font-weight-bold d-none text-center py-2" id="success">User created successfully!</p>
                 <p class="text-center py-2"><i>* Required fields.</i></p>
